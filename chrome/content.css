@@ -1,0 +1,51 @@
+h1.__anchorer-heading .__anchorer-anchor,
+h2.__anchorer-heading .__anchorer-anchor,
+h3.__anchorer-heading .__anchorer-anchor,
+h4.__anchorer-heading .__anchorer-anchor,
+h5.__anchorer-heading .__anchorer-anchor,
+h6.__anchorer-heading .__anchorer-anchor {
+  float: left;
+  padding-right: 4px;
+  margin-left: -20px;
+  line-height: 1;
+}
+
+h1.__anchorer-heading .__anchorer-link,
+h2.__anchorer-heading .__anchorer-link,
+h3.__anchorer-heading .__anchorer-link,
+h4.__anchorer-heading .__anchorer-link,
+h5.__anchorer-heading .__anchorer-link,
+h6.__anchorer-heading .__anchorer-link {
+  vertical-align: middle;
+  visibility: hidden
+}
+
+h1.__anchorer-heading:hover .__anchorer-anchor,
+h2.__anchorer-heading:hover .__anchorer-anchor,
+h3.__anchorer-heading:hover .__anchorer-anchor,
+h4.__anchorer-heading:hover .__anchorer-anchor,
+h5.__anchorer-heading:hover .__anchorer-anchor,
+h6.__anchorer-heading:hover .__anchorer-anchor {
+  text-decoration: none
+}
+
+h1.__anchorer-heading:hover .__anchorer-link,
+h2.__anchorer-heading:hover .__anchorer-link,
+h3.__anchorer-heading:hover .__anchorer-link,
+h4.__anchorer-heading:hover .__anchorer-link,
+h5.__anchorer-heading:hover .__anchorer-link,
+h6.__anchorer-heading:hover .__anchorer-link {
+  visibility: visible
+}
+
+.__anchorer-path {
+  fill:none;
+  /*stroke:#ffffff;*/
+  stroke:#1b1f23;
+  stroke-width:13.178;
+  stroke-linecap:butt;
+  stroke-linejoin:miter;
+  stroke-miterlimit:4;
+  stroke-dasharray:none;
+  stroke-opacity:1
+}
